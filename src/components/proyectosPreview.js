@@ -1,7 +1,6 @@
 import React from 'react';
 import Image from 'gatsby-image'
 import {css} from '@emotion/react'
-import styled from '@emotion/styled';
 import { Link } from 'gatsby';
 
 

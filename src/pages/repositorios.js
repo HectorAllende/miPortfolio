@@ -7,7 +7,7 @@ const Repositorios = () => {
 
         <Layout>
 
-       
+            <Repos/>
         </Layout>
      );
 }

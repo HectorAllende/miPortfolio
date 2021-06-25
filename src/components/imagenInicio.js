@@ -2,7 +2,7 @@ import React from 'react';
 import {graphql, useStaticQuery} from 'gatsby'
 import Img from 'gatsby-image'
 import styled from '@emotion/styled';
-import { css } from '@emotion/react';
+
 
 
 const Imagen= styled(Img)`
@@ -92,7 +92,7 @@ const ImagenInicio = () => {
                 <div>
 
                     <p>mail: hectorallende@gmail.com</p>
-                    <p>telefono: 351-3739857</p>
+                    {/* <p>telefono: 351-3739857</p> */}
 
                     <p>likendin: <a href="https://www.linkedin.com/in/hallende/" target="_blank" rel="noopener noreferrer">hallende</a></p>
                     <p>GitHub: <a href="https://github.com/HectorAllende" target="_blank" rel="noopener noreferrer">hectoraAllende</a></p>
