@@ -66,7 +66,7 @@ const Repos = () => {
                         text-align: center;
                         margin-top: 2rem;
                     `}
-                 >Colaboración y contribución de código</h2>
+                 >-Colaboración y contribución de código-</h2>
             </header>
 
             <ListadoProyectos>
