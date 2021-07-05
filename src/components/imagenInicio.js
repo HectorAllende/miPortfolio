@@ -100,7 +100,12 @@ const ImagenInicio = () => {
 
               
 
-                {/* <form
+                <form
+                        name="contact"
+                        method="post"                 
+                        data-netlify="true"
+                        data-netlify-honeypot="botfield"   
+
                         css={css`
                            text-align: center ;
                            display: flex;
@@ -109,15 +114,19 @@ const ImagenInicio = () => {
 
                         `}
                     >
+                         <input type="hidden" name="contact" aria-hidden="true" value="comentarios" />
                        
                         <textarea
+                            name="comentarios"
                             placeholder="Déjame un mensaje o consulta"
                             css={css`
                                 flex: auto;
                             `}
                         ></textarea>
-                        <button>Enviar</button>
-                </form> */}
+                        <button
+                            type="submit"
+                        >Enviar</button>
+                </form>
 
             </div>
                
