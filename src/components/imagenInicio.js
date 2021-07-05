@@ -103,9 +103,9 @@ const ImagenInicio = () => {
 
                 <form
                         name="contact"
-                        method="post"                 
-                        data-netlify="true"
-                        data-netlify-honeypot="botfield"   
+                        method="POST"                 
+                        netlify
+                        
 
                         css={css`
                            text-align: center ;
