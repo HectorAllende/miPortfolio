@@ -117,18 +117,18 @@ const ImagenInicio = () => {
 
                         `}
                     >
-                       <input type="hidden" name="bot-field" /> <input type="hidden" name="form-name" value="comentarios" />
+                       <input type="hidden" name="bot-field" /> <input type="hidden" name="contact" value="contact" />
                        
                         <textarea
-                            name="comentarios"
+                            name="contact"
                             placeholder="Déjame un mensaje o consulta"
                             css={css`
                                 flex: auto;
                             `}
                         ></textarea>
-                        <input
+                        <button
                             type="submit"
-                        >Enviar</input>
+                        >Enviar</button>
                 </form>
 
             </div>
