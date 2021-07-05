@@ -102,9 +102,11 @@ const ImagenInicio = () => {
               
 
                 <form
-                        name="contact"
-                        method="POST"                 
-                        netlify
+                         name="contact"
+                         method="post"
+                         
+                         data-netlify="true"
+                         data-netlify-honeypot="bot-field"
                         
 
                         css={css`
@@ -115,7 +117,7 @@ const ImagenInicio = () => {
 
                         `}
                     >
-                         <input type="hidden" name="contact" aria-hidden="true" value="comentarios" />
+                       <input type="hidden" name="bot-field" /> <input type="hidden" name="form-name" value="comentarios" />
                        
                         <textarea
                             name="comentarios"
@@ -124,9 +126,9 @@ const ImagenInicio = () => {
                                 flex: auto;
                             `}
                         ></textarea>
-                        <button
+                        <input
                             type="submit"
-                        >Enviar</button>
+                        >Enviar</input>
                 </form>
 
             </div>
